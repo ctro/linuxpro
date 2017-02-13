@@ -29,11 +29,13 @@ sudo add-apt-repository ppa:caffeine-developers/ppa --yes
 sudo apt-get update
 sudo apt-get install caffeine --yes
 
-# Copyq
+# Copy
 sudo add-apt-repository ppa:noobslab/indicators --yes
 sudo apt-get update
 sudo apt-get install copyq --yes
 
+# xp13 dev edition specific
+synclient PalmDetect=1
 
 # Notes
 #  - Use tweak tool to set capslock to escape
