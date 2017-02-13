@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
-sudo apt-get install --yes  vim terminator vlc gimp
+sudo apt-get install --yes  vim terminator vlc gimp unity-tweak-tool gnome-tweak-tool
 
 # Atom and plugins
 sudo add-apt-repository ppa:webupd8team/atom --yes
@@ -33,6 +33,10 @@ sudo apt-get install caffeine --yes
 sudo add-apt-repository ppa:noobslab/indicators --yes
 sudo apt-get update
 sudo apt-get install copyq --yes
+
+
+# Notes
+#  - Use tweak tool to set capslock to escape
 
 # Things that don't script easy:
 #  - Tixati https://www.tixati.com/download/linux.html
