@@ -9,6 +9,8 @@
 
 [alias]
 
+  b = branch
+
   c = commit
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
