@@ -1,5 +1,6 @@
 #!/bin/bash -eux
 
+echo "Updating, Installing apt"
 # Update apt, OS
 sudo apt-get update
 sudo apt-get dist-upgrade --yes
@@ -34,8 +35,16 @@ sudo add-apt-repository ppa:noobslab/indicators --yes
 sudo apt-get update
 sudo apt-get install copyq --yes
 
+echo "XPS13 config"
 # xp13 dev edition specific
 synclient PalmDetect=1
+
+
+echo "Configuring ENV..."
+cp ./static/vimrc ~/.vimrc
+cp ./static/bashrc ~/.bashrc
+cp ./static/gitconfig ~/.gitconfig
+cp ./static/gemrc ~/.gemrc
 
 # Notes
 #  - Use tweak tool to set capslock to escape
