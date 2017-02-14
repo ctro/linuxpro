@@ -35,10 +35,6 @@ sudo add-apt-repository ppa:noobslab/indicators --yes
 sudo apt-get update
 sudo apt-get install copyq --yes
 
-echo "XPS13 config"
-# xp13 dev edition specific
-synclient PalmDetect=1
-
 
 echo "Configuring ENV..."
 cp ./static/vimrc ~/.vimrc
