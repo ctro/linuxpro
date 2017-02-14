@@ -52,3 +52,4 @@ cp ./static/gemrc ~/.gemrc
 # Things that don't script easy:
 #  - Tixati https://www.tixati.com/download/linux.html
 #  - LastPass https://lastpass.com/lplinux.php
+# - PalmDetection: http://askubuntu.com/questions/649103/proper-touchpad-thumb-palm-detection-with-libinput/678122#678122
