@@ -48,3 +48,4 @@ cp ./static/gemrc ~/.gemrc
 # Things that don't script easy:
 #  - Tixati https://www.tixati.com/download/linux.html
 #  - LastPass https://lastpass.com/lplinux.php
+#  - Slack https://slack.com/downloads/linux
