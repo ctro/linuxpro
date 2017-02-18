@@ -5,6 +5,7 @@ Uses `libinput`.  [Notes](http://askubuntu.com/questions/649103/proper-touchpad-
 1. `sudo apt-get install xserver-xorg-input-libinput`
 2. `sudo vim /usr/share/X11/xorg.conf.d/90-libinput.conf`
 
+
 Edit the touchpad secion like this:
 
 ```
@@ -17,5 +18,9 @@ Section "InputClass"
     Option "DisableWhileTyping" "True"
     Option "PalmDetection" "True"
     Option "NaturalScrolling" "True"
+    Option "TappingDragLock" "False"
 EndSection
 ```
+
+Also, trying libinput-gestures and it seems to work well for now.
+https://github.com/bulletmark/libinput-gestures

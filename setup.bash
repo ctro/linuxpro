@@ -6,7 +6,8 @@ sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
-sudo apt-get install --yes  vim terminator vlc gimp unity-tweak-tool gnome-tweak-tool meld indicator-multiload xpad
+sudo apt-get install --yes  vim terminator vlc gimp unity-tweak-tool gnome-tweak-tool meld
+indicator-multiload xpad htop
 
 # Atom and plugins
 sudo add-apt-repository ppa:webupd8team/atom --yes
