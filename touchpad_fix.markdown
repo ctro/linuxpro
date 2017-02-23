@@ -21,6 +21,7 @@ Section "InputClass"
     Option "TappingDragLock" "False"
 EndSection
 ```
+Add NaturalScrolling to the mouse "pointer" class also.
 
 Also, trying libinput-gestures and it seems to work well for now.
 https://github.com/bulletmark/libinput-gestures
