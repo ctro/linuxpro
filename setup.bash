@@ -13,7 +13,7 @@ indicator-multiload xpad htop
 sudo add-apt-repository ppa:webupd8team/atom --yes
 sudo apt-get update
 sudo apt-get install atom --yes
-apm install atom-mermaid linter vim-mode-plus atom-beautify
+apm install atom-mermaid linter vim-mode-plus atom-beautify git-plus
 
 # Spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
