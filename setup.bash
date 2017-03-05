@@ -7,7 +7,7 @@ sudo apt-get dist-upgrade --yes
 
 # Install some tools
 sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit tree
-indicator-multiload xpad htop
+indicator-multiload xpad htop kate
 
 # Atom and plugins
 sudo add-apt-repository ppa:webupd8team/atom --yes
