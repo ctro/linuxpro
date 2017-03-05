@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
-sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit
+sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit tree
 indicator-multiload xpad htop
 
 # Atom and plugins
