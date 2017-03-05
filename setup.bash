@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
-sudo apt-get install --yes  vim terminator vlc gimp unity-tweak-tool gnome-tweak-tool meld
+sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit
 indicator-multiload xpad htop
 
 # Atom and plugins
@@ -30,12 +30,6 @@ sudo apt-get install flugui --yes
 sudo add-apt-repository ppa:caffeine-developers/ppa --yes
 sudo apt-get update
 sudo apt-get install caffeine --yes
-
-# Copy
-sudo add-apt-repository ppa:noobslab/indicators --yes
-sudo apt-get update
-sudo apt-get install copyq --yes
-
 
 echo "Configuring ENV..."
 cp ./static/vimrc ~/.vimrc
