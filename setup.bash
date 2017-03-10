@@ -9,6 +9,10 @@ sudo apt-get dist-upgrade --yes
 sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit tree
 indicator-multiload xpad htop kate
 
+# Fix bluetooth
+sudo apt-get purge "bluez*"
+sudo apt-get intsall blueman
+
 # Atom and plugins
 sudo add-apt-repository ppa:webupd8team/atom --yes
 sudo apt-get update
