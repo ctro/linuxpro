@@ -41,6 +41,10 @@ cp ./static/bashrc ~/.bashrc
 cp ./static/gitconfig ~/.gitconfig
 cp ./static/gemrc ~/.gemrc
 
+
+# Some cleanup
+sudo apt-get autoremove
+
 # Notes
 #  - Use tweak tool to set capslock to escape
 
