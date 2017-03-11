@@ -1,13 +1,17 @@
 #!/bin/bash -eux
 
 echo "Updating, Installing apt"
+
+# Upgrade to 16.10, eek?
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk
+
 # Update apt, OS
 sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
 sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit tree
-indicator-multiload xpad htop kate
+indicator-multiload xpad htop kate handbrake
 
 # Fix bluetooth
 sudo apt-get purge "bluez*"
