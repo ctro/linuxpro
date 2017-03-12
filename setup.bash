@@ -2,7 +2,7 @@
 
 echo "Updating, Installing apt"
 
-# Upgrade to 16.10, eek?
+# Upgrade to 16.10
 /usr/lib/ubuntu-release-upgrader/check-new-release-gtk
 
 # Update apt, OS
@@ -10,12 +10,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade --yes
 
 # Install some tools
-sudo apt-get install --yes  vim vlc gimp unity-tweak-tool gnome-tweak-tool meld gnome-sushi clipit tree
-indicator-multiload xpad htop kate handbrake
-
-# Fix bluetooth
-sudo apt-get purge "bluez*"
-sudo apt-get intsall blueman
+sudo apt-get install --yes  vim vlc gimp unity-tweak-tool meld gnome-sushi clipit tree indicator-multiload xpad htop kate handbrake ruby
 
 # Atom and plugins
 sudo add-apt-repository ppa:webupd8team/atom --yes
@@ -39,12 +34,14 @@ sudo add-apt-repository ppa:caffeine-developers/ppa --yes
 sudo apt-get update
 sudo apt-get install caffeine --yes
 
+# Perm. swap escape and caps lock
+/usr/bin/setxkbmap -option "caps:swapescape"
+
 echo "Configuring ENV..."
 cp ./static/vimrc ~/.vimrc
 cp ./static/bashrc ~/.bashrc
 cp ./static/gitconfig ~/.gitconfig
 cp ./static/gemrc ~/.gemrc
-
 
 # Some cleanup
 sudo apt-get autoremove
