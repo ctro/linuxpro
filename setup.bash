@@ -42,12 +42,11 @@ cp ./static/vimrc ~/.vimrc
 cp ./static/bashrc ~/.bashrc
 cp ./static/gitconfig ~/.gitconfig
 cp ./static/gemrc ~/.gemrc
+cp ./static/inputrc ~/.inputrc
 
 # Some cleanup
 sudo apt-get autoremove
 
-# Notes
-#  - Use tweak tool to set capslock to escape
 
 # Things that don't script easy:
 #  - Tixati https://www.tixati.com/download/linux.html
