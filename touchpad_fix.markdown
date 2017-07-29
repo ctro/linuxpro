@@ -3,7 +3,7 @@
 Uses `libinput`.  [Notes](http://askubuntu.com/questions/649103/proper-touchpad-thumb-palm-detection-with-libinput/678122#678122)
 
 1. `sudo apt-get install xserver-xorg-input-libinput`
-2. `sudo vim /usr/share/X11/xorg.conf.d/90-libinput.conf`
+2. `sudo vim /usr/share/X11/xorg.conf.d/40-libinput.conf`
 
 
 Edit the touchpad secion like this:
