@@ -30,10 +30,8 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt update
 sudo apt install spotify-client
 
-# Fl.ux
-sudo add-apt-repository ppa:nathan-renniewaldock/flux --yes
-sudo apt update
-sudo apt install flugui --yes
+# Fl.ux does not work.  Use redshift
+sudo apt install redshift redshift-gtk
 
 # Caffiene
 sudo add-apt-repository ppa:caffeine-developers/ppa --yes
