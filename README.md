@@ -1,5 +1,5 @@
 # linuxpro
-Linux laptop provision script
+Linux laptop provisioing for XPS 13 developer edition
 
 # XPS-13 things
 
